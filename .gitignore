@@ -1,0 +1,10 @@
+# Gradle y compilación
+.gradle/
+build/
+.kotlin/
+
+# IDEs (Visual Studio Code / IntelliJ)
+.vscode/
+.idea/
+*.iml
+out/

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+
+<VBox alignment="CENTER" spacing="20.0" 
+stylesheets="@/css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="com.quizchallenge.ui.controllers.MenuController">
+   <padding>
+      <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+   </padding>
+
+   <!-- Logo del Quiz Challenge -->
+   <ImageView fx:id="imgLogo" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+
+   <Label styleClass="title-label" text="Quiz Challenge" />
+
+   <!-- Campo para el nombre del jugador -->
+   <VBox spacing="5.0" maxWidth="300.0">
+      <Label text="Nom d'usuari:" />
+      <TextField fx:id="txtNomJugador" promptText="Introdueix el teu nom..." />
+   </VBox>
+
+   <!-- Selector de categoría -->
+   <VBox spacing="5.0" maxWidth="300.0">
+      <Label text="Selecciona una categoria:" />
+      <ComboBox fx:id="cbCategoria" maxWidth="Infinity" promptText="Tria categoria..." />
+   </VBox>
+
+   <!-- Botón para iniciar partida -->
+   <Button fx:id="btnIniciar" defaultButton="true" maxWidth="300.0" styleClass="action-button" text="Iniciar Partida" onAction="#handleIniciarPartida" />
+
+   <!-- Botón para ver el ranking -->
+   <Button fx:id="btnRanking" maxWidth="300.0" styleClass="secondary-button" text="Veure Rànquing" onAction="#handleVeureRanking" />
+
+</VBox>

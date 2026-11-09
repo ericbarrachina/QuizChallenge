@@ -1,0 +1,63 @@
+/* Estils generals de la finestra */
+.root {
+    -fx-background-color: #f4f6f9;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Títol principal */
+.title-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1a252c;
+}
+
+/* Etiquetes de text */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #34495e;
+    -fx-font-weight: bold;
+}
+
+/* Camps de text i desplegables */
+.text-field, .combo-box {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 6px;
+    -fx-border-color: #dcdde1;
+    -fx-border-radius: 6px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #3498db;
+}
+
+/* Botó principal (Iniciar Partida) */
+.action-button {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.action-button:hover {
+    -fx-background-color: #27ae60;
+}
+
+/* Botó secundari (Rànquing) */
+.secondary-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #2980b9;
+}

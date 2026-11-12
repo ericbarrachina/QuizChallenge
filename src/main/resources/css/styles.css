@@ -1,63 +1,195 @@
-/* Estils generals de la finestra */
-.root {
-    -fx-background-color: #f4f6f9;
-    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+.main-background {
+    -fx-background-color: linear-gradient(to bottom right, #081526, #112a4a);
+    -fx-font-family: "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
 }
 
-/* Títol principal */
-.title-label {
-    -fx-font-size: 28px;
-    -fx-font-weight: bold;
-    -fx-text-fill: #1a252c;
-}
 
-/* Etiquetes de text */
-.label {
-    -fx-font-size: 14px;
-    -fx-text-fill: #34495e;
-    -fx-font-weight: bold;
-}
-
-/* Camps de text i desplegables */
-.text-field, .combo-box {
+.menu-card {
     -fx-background-color: #ffffff;
-    -fx-background-radius: 6px;
-    -fx-border-color: #dcdde1;
-    -fx-border-radius: 6px;
-    -fx-padding: 8px;
-    -fx-font-size: 14px;
+    -fx-background-radius: 22px;
+    -fx-border-color: #d4af37;
+    -fx-border-width: 2px;
+    -fx-border-radius: 22px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 35, 0, 0, 15);
 }
+
+
+.title-label {
+    -fx-font-size: 32px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #0b1e38;
+    -fx-letter-spacing: 2px;
+}
+
+
+.subtitle-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #6c7a89;
+    -fx-font-style: italic;
+}
+
+
+.gold-separator *.line {
+    -fx-border-color: #d4af37;
+    -fx-border-width: 1.5px 0 0 0;
+    -fx-opacity: 0.6;
+}
+
+
+.field-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0b1e38;
+    -fx-letter-spacing: 1px;
+}
+
+
+.text-field, .combo-box {
+    -fx-background-color: #f8f9fa;
+    -fx-background-radius: 10px;
+    -fx-border-color: #dce1e7;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 10px;
+    -fx-padding: 13px 16px;
+    -fx-font-size: 16px;
+    -fx-text-fill: #0b1e38;
+}
+
 
 .text-field:focused, .combo-box:focused {
-    -fx-border-color: #3498db;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d4af37;
+    -fx-effect: dropshadow(three-pass-box, rgba(212, 175, 55, 0.25), 10, 0, 0, 0);
 }
 
-/* Botó principal (Iniciar Partida) */
-.action-button {
-    -fx-background-color: #2ecc71;
-    -fx-text-fill: white;
-    -fx-font-size: 16px;
-    -fx-font-weight: bold;
-    -fx-background-radius: 6px;
-    -fx-padding: 10px;
-    -fx-cursor: hand;
+
+.combo-box .list-cell {
+    -fx-text-fill: #0b1e38;
+    -fx-padding: 0;
 }
+
+
+.action-button {
+    -fx-background-color: linear-gradient(to bottom, #dfbd69, #c59b27);
+    -fx-text-fill: #0b1e38;
+    -fx-font-size: 16px;
+    -fx-font-weight: 900;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+    -fx-cursor: hand;
+    -fx-letter-spacing: 1.2px;
+    -fx-effect: dropshadow(three-pass-box, rgba(197, 155, 39, 0.35), 12, 0, 0, 5);
+}
+
 
 .action-button:hover {
-    -fx-background-color: #27ae60;
+    -fx-background-color: linear-gradient(to bottom, #e8ca7d, #d4af37);
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
 }
 
-/* Botó secundari (Rànquing) */
-.secondary-button {
-    -fx-background-color: #3498db;
-    -fx-text-fill: white;
-    -fx-font-size: 14px;
-    -fx-font-weight: bold;
-    -fx-background-radius: 6px;
-    -fx-padding: 8px;
-    -fx-cursor: hand;
+
+.action-button:pressed {
+    -fx-scale-x: 0.99;
+    -fx-scale-y: 0.99;
 }
+
+
+.secondary-button {
+    -fx-background-color: #0b1e38;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-border-color: #1c3d6e;
+    -fx-border-radius: 10px;
+    -fx-padding: 14px;
+    -fx-cursor: hand;
+    -fx-letter-spacing: 1px;
+}
+
 
 .secondary-button:hover {
-    -fx-background-color: #2980b9;
+    -fx-background-color: #14325c;
+    -fx-border-color: #d4af37;
+    -fx-text-fill: #dfbd69;
+}
+
+
+/* =========================================
+   ESTILS PER A LA TAULA DE RÀNQUING
+   ========================================= */
+
+
+.ranking-table {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dce1e7;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 0;
+}
+
+
+/* Capçalera de la taula */
+.ranking-table .column-header-background {
+    -fx-background-color: #0b1e38;
+    -fx-background-radius: 10px 10px 0 0;
+    -fx-padding: 4px 0;
+}
+
+
+.ranking-table .column-header {
+    -fx-background-color: transparent;
+    -fx-size: 48px;
+    -fx-border-color: transparent #1c3d6e transparent transparent;
+}
+
+
+.ranking-table .column-header .label {
+    -fx-text-fill: #dfbd69;
+    -fx-font-size: 13px;
+    -fx-font-weight: 900;
+    -fx-letter-spacing: 1px;
+}
+
+
+/* Files i cel·les */
+.ranking-table .table-row-cell {
+    -fx-cell-size: 46px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: transparent transparent #eef1f5 transparent;
+    -fx-font-size: 15px;
+    -fx-text-fill: #0b1e38;
+}
+
+
+.ranking-table .table-row-cell:odd {
+    -fx-background-color: #f8f9fb;
+}
+
+
+.ranking-table .table-row-cell:hover {
+    -fx-background-color: rgba(212, 175, 55, 0.14);
+}
+
+
+.ranking-table .table-row-cell:selected {
+    -fx-background-color: rgba(212, 175, 55, 0.28);
+    -fx-text-fill: #0b1e38;
+}
+
+
+.ranking-table .table-cell {
+    -fx-text-fill: #0b1e38;
+    -fx-font-weight: bold;
+    -fx-padding: 0 14px;
+}
+
+
+/* Text quan la taula està buida */
+.ranking-table .placeholder .label {
+    -fx-text-fill: #6c7a89;
+    -fx-font-size: 15px;
+    -fx-font-style: italic;
 }

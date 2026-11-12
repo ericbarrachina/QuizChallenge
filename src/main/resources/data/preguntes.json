@@ -1,0 +1,362 @@
+[
+  {
+    "idPregunta": 1,
+    "idCategoria": 1,
+    "enunciat": "Quina és la capital de França?",
+    "opcions": [
+      "Madrid",
+      "París",
+      "Roma",
+      "Londres"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 2,
+    "idCategoria": 1,
+    "enunciat": "Quant és 5 + 3?",
+    "opcions": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 3,
+    "idCategoria": 1,
+    "enunciat": "Qui va pintar la Mona Lisa?",
+    "opcions": [
+      "Dalí",
+      "Picasso",
+      "Leonardo da Vinci",
+      "Goya"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 4,
+    "idCategoria": 1,
+    "enunciat": "Quants dies té un any de traspàs?",
+    "opcions": [
+      "365",
+      "366",
+      "364",
+      "360"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 5,
+    "idCategoria": 1,
+    "enunciat": "Quin és el símbol químic de l’aigua?",
+    "opcions": [
+      "H2O",
+      "CO2",
+      "O2",
+      "NaCl"
+    ],
+    "respostaCorrecta": 0
+  },
+  {
+    "idPregunta": 6,
+    "idCategoria": 1,
+    "enunciat": "Quin instrument té habitualment 88 tecles?",
+    "opcions": [
+      "Violí",
+      "Piano",
+      "Guitarra",
+      "Flauta"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 7,
+    "idCategoria": 1,
+    "enunciat": "Quina llengua es parla principalment al Brasil?",
+    "opcions": [
+      "Castellà",
+      "Anglès",
+      "Portuguès",
+      "Francès"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 8,
+    "idCategoria": 1,
+    "enunciat": "Qui va escriure Don Quixot?",
+    "opcions": [
+      "Miguel de Cervantes",
+      "Federico García Lorca",
+      "Gabriel García Márquez",
+      "Pablo Neruda"
+    ],
+    "respostaCorrecta": 0
+  },
+  {
+    "idPregunta": 9,
+    "idCategoria": 1,
+    "enunciat": "Quin planeta és conegut com el planeta vermell?",
+    "opcions": [
+      "Venus",
+      "Júpiter",
+      "Mart",
+      "Saturn"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 10,
+    "idCategoria": 1,
+    "enunciat": "Quants minuts té una hora?",
+    "opcions": [
+      "30",
+      "45",
+      "60",
+      "90"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 11,
+    "idCategoria": 2,
+    "enunciat": "Quants jugadors té un equip de futbol al camp?",
+    "opcions": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 12,
+    "idCategoria": 2,
+    "enunciat": "En quin esport es fa servir una raqueta i un volant?",
+    "opcions": [
+      "Tennis",
+      "Bàdminton",
+      "Golf",
+      "Hoquei"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 13,
+    "idCategoria": 2,
+    "enunciat": "Quants punts val un triple en bàsquet?",
+    "opcions": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 14,
+    "idCategoria": 2,
+    "enunciat": "Quin país va guanyar el Mundial de futbol masculí de 2010?",
+    "opcions": [
+      "Alemanya",
+      "Espanya",
+      "Brasil",
+      "Argentina"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 15,
+    "idCategoria": 2,
+    "enunciat": "Quina prova és una marató?",
+    "opcions": [
+      "10 km",
+      "21,0975 km",
+      "42,195 km",
+      "50 km"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 16,
+    "idCategoria": 2,
+    "enunciat": "Quants sets necessita guanyar un equip de voleibol en un partit al millor de cinc?",
+    "opcions": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 17,
+    "idCategoria": 2,
+    "enunciat": "En quin esport participa un porter i es llança una pilota amb la mà a porteria?",
+    "opcions": [
+      "Handbol",
+      "Tennis",
+      "Bàdminton",
+      "Atletisme"
+    ],
+    "respostaCorrecta": 0
+  },
+  {
+    "idPregunta": 18,
+    "idCategoria": 2,
+    "enunciat": "Quantes anelles té el símbol olímpic?",
+    "opcions": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 19,
+    "idCategoria": 2,
+    "enunciat": "Com s’anomena el torneig de tennis sobre terra batuda de París?",
+    "opcions": [
+      "Wimbledon",
+      "US Open",
+      "Roland-Garros",
+      "Australian Open"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 20,
+    "idCategoria": 2,
+    "enunciat": "A quin esport correspon la competició Tour de França?",
+    "opcions": [
+      "Natació",
+      "Ciclisme",
+      "Motor",
+      "Esquí"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 21,
+    "idCategoria": 3,
+    "enunciat": "Quin és el continent on es troba Egipte?",
+    "opcions": [
+      "Àsia",
+      "Àfrica",
+      "Europa",
+      "Oceania"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 22,
+    "idCategoria": 3,
+    "enunciat": "Quina és la capital d’Itàlia?",
+    "opcions": [
+      "Milà",
+      "Venècia",
+      "Roma",
+      "Nàpols"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 23,
+    "idCategoria": 3,
+    "enunciat": "Quin oceà separa Europa d’Amèrica?",
+    "opcions": [
+      "Índic",
+      "Pacífic",
+      "Atlàntic",
+      "Àrtic"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 24,
+    "idCategoria": 3,
+    "enunciat": "Quin país té forma de bota?",
+    "opcions": [
+      "Portugal",
+      "Itàlia",
+      "Grècia",
+      "Noruega"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 25,
+    "idCategoria": 3,
+    "enunciat": "Quina és la capital de Portugal?",
+    "opcions": [
+      "Porto",
+      "Coïmbra",
+      "Lisboa",
+      "Faro"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 26,
+    "idCategoria": 3,
+    "enunciat": "Quin riu passa per Londres?",
+    "opcions": [
+      "Sena",
+      "Tàmesi",
+      "Danubi",
+      "Tíber"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 27,
+    "idCategoria": 3,
+    "enunciat": "A quin continent es troba Austràlia?",
+    "opcions": [
+      "Àfrica",
+      "Oceania",
+      "Europa",
+      "Amèrica"
+    ],
+    "respostaCorrecta": 1
+  },
+  {
+    "idPregunta": 28,
+    "idCategoria": 3,
+    "enunciat": "Quin és el país més gran del món per superfície?",
+    "opcions": [
+      "Xina",
+      "Canadà",
+      "Rússia",
+      "Estats Units"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 29,
+    "idCategoria": 3,
+    "enunciat": "Quina és la capital del Japó?",
+    "opcions": [
+      "Osaka",
+      "Kyoto",
+      "Tòquio",
+      "Nagoya"
+    ],
+    "respostaCorrecta": 2
+  },
+  {
+    "idPregunta": 30,
+    "idCategoria": 3,
+    "enunciat": "En quin país es troba la ciutat de Marràqueix?",
+    "opcions": [
+      "Marroc",
+      "Tunísia",
+      "Algèria",
+      "Egipte"
+    ],
+    "respostaCorrecta": 0
+  }
+]

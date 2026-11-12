@@ -1,0 +1,31 @@
+idPregunta;idCategoria;enunciat;opcio1;opcio2;opcio3;opcio4;respostaCorrecta
+1;1;Quina és la capital de França?;Madrid;París;Roma;Londres;1
+2;1;Quant és 5 + 3?;6;7;8;9;2
+3;1;Qui va pintar la Mona Lisa?;Dalí;Picasso;Leonardo da Vinci;Goya;2
+4;1;Quants dies té un any de traspàs?;365;366;364;360;1
+5;1;Quin és el símbol químic de l’aigua?;H2O;CO2;O2;NaCl;0
+6;1;Quin instrument té habitualment 88 tecles?;Violí;Piano;Guitarra;Flauta;1
+7;1;Quina llengua es parla principalment al Brasil?;Castellà;Anglès;Portuguès;Francès;2
+8;1;Qui va escriure Don Quixot?;Miguel de Cervantes;Federico García Lorca;Gabriel García Márquez;Pablo Neruda;0
+9;1;Quin planeta és conegut com el planeta vermell?;Venus;Júpiter;Mart;Saturn;2
+10;1;Quants minuts té una hora?;30;45;60;90;2
+11;2;Quants jugadors té un equip de futbol al camp?;9;10;11;12;2
+12;2;En quin esport es fa servir una raqueta i un volant?;Tennis;Bàdminton;Golf;Hoquei;1
+13;2;Quants punts val un triple en bàsquet?;1;2;3;4;2
+14;2;Quin país va guanyar el Mundial de futbol masculí de 2010?;Alemanya;Espanya;Brasil;Argentina;1
+15;2;Quina prova és una marató?;10 km;21,0975 km;42,195 km;50 km;2
+16;2;Quants sets necessita guanyar un equip de voleibol en un partit al millor de cinc?;2;3;4;5;1
+17;2;En quin esport participa un porter i es llança una pilota amb la mà a porteria?;Handbol;Tennis;Bàdminton;Atletisme;0
+18;2;Quantes anelles té el símbol olímpic?;4;5;6;7;1
+19;2;Com s’anomena el torneig de tennis sobre terra batuda de París?;Wimbledon;US Open;Roland-Garros;Australian Open;2
+20;2;A quin esport correspon la competició Tour de França?;Natació;Ciclisme;Motor;Esquí;1
+21;3;Quin és el continent on es troba Egipte?;Àsia;Àfrica;Europa;Oceania;1
+22;3;Quina és la capital d’Itàlia?;Milà;Venècia;Roma;Nàpols;2
+23;3;Quin oceà separa Europa d’Amèrica?;Índic;Pacífic;Atlàntic;Àrtic;2
+24;3;Quin país té forma de bota?;Portugal;Itàlia;Grècia;Noruega;1
+25;3;Quina és la capital de Portugal?;Porto;Coïmbra;Lisboa;Faro;2
+26;3;Quin riu passa per Londres?;Sena;Tàmesi;Danubi;Tíber;1
+27;3;A quin continent es troba Austràlia?;Àfrica;Oceania;Europa;Amèrica;1
+28;3;Quin és el país més gran del món per superfície?;Xina;Canadà;Rússia;Estats Units;2
+29;3;Quina és la capital del Japó?;Osaka;Kyoto;Tòquio;Nagoya;2
+30;3;En quin país es troba la ciutat de Marràqueix?;Marroc;Tunísia;Algèria;Egipte;0

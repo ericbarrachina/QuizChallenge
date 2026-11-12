@@ -40,4 +40,7 @@ kotlin {
 dependencies {
     // Llibreria Gson per gestionar la serialització i deserialització de JSON i fitxers
     implementation("com.google.code.gson:gson:2.10.1")
+
+    // Driver JDBC per connectar amb MariaDB
+    implementation("org.mariadb.jdbc:mariadb-java-client:3.4.1")
 }

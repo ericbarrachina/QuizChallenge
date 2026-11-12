@@ -1,38 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" spacing="20.0" 
-stylesheets="@/css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" 
-fx:controller="com.quizchallenge.ui.controllers.MenuController">
-   <padding>
-      <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
-   </padding>
 
-   <!-- Logo del Quiz Challenge -->
-   <ImageView fx:id="imgLogo" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+<StackPane stylesheets="@/css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" 
+           fx:controller="com.quizchallenge.ui.controllers.MenuController" styleClass="main-background">
 
-   <Label styleClass="title-label" text="Quiz Challenge" />
 
-   <!-- Campo para el nombre del jugador -->
-   <VBox spacing="5.0" maxWidth="300.0">
-      <Label text="Nom d'usuari:" />
-      <TextField fx:id="txtNomJugador" promptText="Introdueix el teu nom..." />
+   <!-- Tarjeta central escalada para 1920x1080 -->
+   <VBox alignment="CENTER" maxWidth="560.0" maxHeight="780.0" spacing="28.0" styleClass="menu-card">
+      <padding>
+         <Insets bottom="50.0" left="60.0" right="60.0" top="50.0" />
+      </padding>
+
+
+      <!-- Logo y cabecera -->
+      <VBox alignment="CENTER" spacing="12.0">
+         <ImageView fx:id="imgLogo" fitHeight="230.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@/images/logo.jpeg" />
+            </image>
+         </ImageView>
+         
+         <Label styleClass="title-label" text="QUIZ CHALLENGE" />
+         <Label styleClass="subtitle-label" text="Posa a prova el teu enginy" />
+      </VBox>
+
+
+      <!-- Separador dorado -->
+      <Separator maxWidth="320.0" styleClass="gold-separator" />
+
+
+      <!-- Formulario más ancho y cómodo -->
+      <VBox spacing="20.0" maxWidth="440.0">
+         <VBox spacing="8.0">
+            <Label styleClass="field-label" text="NOM D'USUARI" />
+            <TextField fx:id="txtNomJugador" promptText="Introdueix el teu nom..." />
+         </VBox>
+
+
+         <VBox spacing="8.0">
+            <Label styleClass="field-label" text="CATEGORIA" />
+            <ComboBox fx:id="cbCategoria" maxWidth="Infinity" promptText="Tria una temàtica..." />
+         </VBox>
+      </VBox>
+
+
+      <!-- Botones de acción -->
+      <VBox spacing="15.0" maxWidth="440.0">
+         <padding>
+            <Insets top="12.0" />
+         </padding>
+         <Button fx:id="btnIniciar" defaultButton="true" maxWidth="Infinity" styleClass="action-button" text="INICIAR PARTIDA" onAction="#handleIniciarPartida" />
+         <Button fx:id="btnRanking" maxWidth="Infinity" styleClass="secondary-button" text="VEURE RÀNQUING" onAction="#handleVeureRanking" />
+      </VBox>
+
+
    </VBox>
-
-   <!-- Selector de categoría -->
-   <VBox spacing="5.0" maxWidth="300.0">
-      <Label text="Selecciona una categoria:" />
-      <ComboBox fx:id="cbCategoria" maxWidth="Infinity" promptText="Tria categoria..." />
-   </VBox>
-
-   <!-- Botón para iniciar partida -->
-   <Button fx:id="btnIniciar" defaultButton="true" maxWidth="300.0" styleClass="action-button" text="Iniciar Partida" onAction="#handleIniciarPartida" />
-
-   <!-- Botón para ver el ranking -->
-   <Button fx:id="btnRanking" maxWidth="300.0" styleClass="secondary-button" text="Veure Rànquing" onAction="#handleVeureRanking" />
-
-</VBox>
+</StackPane>
